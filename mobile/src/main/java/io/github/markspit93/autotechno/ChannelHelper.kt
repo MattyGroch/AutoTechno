@@ -11,10 +11,29 @@ object ChannelHelper {
         Channel("hardtechno_hi", "Hard Techno", R.drawable.hard_techno),
         Channel("handsup_hi", "Hands Up", R.drawable.hands_up),
         Channel("electrohouse_hi", "Electro House", R.drawable.electro_house),
-        Channel("electroswing_hi", "Electroswing", R.drawable.electroswing),
+        Channel("electroswing_hi", "Electro Swing", R.drawable.electro_swing),
         Channel("synthwave_hi", "Synthwave", R.drawable.synthwave),
         Channel("futuresynthpop_hi", "Future Synthpop", R.drawable.future_synthpop),
-        Channel("techno_hi", "Techno", R.drawable.techno)
+        Channel("techno_hi", "Techno", R.drawable.techno),
+        Channel("classictrance_hi", "Classic Trance", R.drawable.classic_trance),
+        Channel("edm_hi", "EDM Hits", R.drawable.edm),
+        Channel("nightcore_hi", "Nightcore", R.drawable.nightcore),
+        Channel("classiceurodance_hi", "Classic EuroDance", R.drawable.classic_eurodance),
+        Channel("eurodance_hi", "EuroDance", R.drawable.eurodance),
+        Channel("bigroomhouse_hi", "Big Room House", R.drawable.big_room_house),
+        Channel("epictrance_hi", "Epic Trance", R.drawable.epic_trance),
+        Channel("hardstyle_hi", "Hardstyle", R.drawable.hardstyle),
+        Channel("vocaltrance_hi", "Vocal Trance", R.drawable.vocal_trance),
+        Channel("harddance_hi", "Hard Dance", R.drawable.hard_dance),
+        Channel("electropop_hi", "Electropop", R.drawable.electropop),
+        Channel("trance_hi", "Trance", R.drawable.trance),
+        Channel("hardcore_hi", "Hardcore", R.drawable.hardcore),
+        Channel("clubdubstep_hi", "Club Dubstep", R.drawable.club_dubstep),
+        Channel("dubstep_hi", "Dubstep", R.drawable.dubstep),
+        Channel("trap_hi", "Trap", R.drawable.trap),
+        Channel("classicvocaltrance_hi", "Classic Vocal Trance", R.drawable.classic_vocal_trance),
+        Channel("bassnjackinhouse_hi", "Bass & Jackin' House", R.drawable.bass_n_jackin_house),
+        Channel("glitchhop_hi", "Glitch Hop", R.drawable.glitch_hop)
     )
 
     fun createListing(context: Context): ArrayList<MediaItem> {
