@@ -8,12 +8,13 @@ import android.support.v4.media.MediaDescriptionCompat
 object ChannelHelper {
 
     private val channelList = listOf(
-        Channel("techno", "Techno", R.drawable.techno),
-        Channel("detroithousentechno", "Detroit House & Techno", R.drawable.detroit_house_techno),
-        Channel("undergroundtechno", "Underground Techno", R.drawable.underground_techno),
-        Channel("progressive", "Progressive", R.drawable.progressive),
-        Channel("techhouse", "Tech House", R.drawable.tech_house),
-        Channel("house", "House", R.drawable.house)
+        Channel("hardtechno_hi", "Hard Techno", R.drawable.hard_techno),
+        Channel("handsup_hi", "Hands Up", R.drawable.hands_up),
+        Channel("electrohouse_hi", "Electro House", R.drawable.electro_house),
+        Channel("electroswing_hi", "Electroswing", R.drawable.electroswing),
+        Channel("synthwave_hi", "Synthwave", R.drawable.synthwave),
+        Channel("futuresynthpop_hi", "Future Synthpop", R.drawable.future_synthpop),
+        Channel("techno_hi", "Techno", R.drawable.techno)
     )
 
     fun createListing(context: Context): ArrayList<MediaItem> {
